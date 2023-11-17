@@ -1,0 +1,80 @@
+body * {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #10393D;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    color: white;
+}
+
+#img-logo {
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #FFBF5E;
+    text-decoration: underline;
+}
+
+/* On alligne les blocks (div) */
+.inline {
+    display: inline-block;
+}
+
+
+/* On allignes les élements dans la div avec la classe .logo */
+.logo * {
+    display: inline;
+}
+
+.logo h2 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.logo input {
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 15px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+/* Changer les proprietés du placeholder de l'input */
+.logo input::placeholder {
+    color: white;
+}
+
+
+.btns {
+    margin-left: 200px;
+}
+
+.btns button {
+    background-color: #FFBF5E;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+    /* On ajoute une transition pour appliquer les effets */
+    transition: all 0.5s;
+}
+
+/* On change les propriétés du button quand on passe la souris sur celui-ci */
+.btns button:hover {
+    background-color: #d29d4c;
+}
